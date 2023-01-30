@@ -3,18 +3,22 @@
 
 <head>
   <meta charset="UTF-8">
+  <title>Accessible Me</title>
+  <link rel="stylesheet" href="css/main.css">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Accessible Me</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&family=Stick+No+Bills:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
+  <header>
+    <a href="#main" class="skip">Skip to main content</a>
+    </header>
+    <main id="main" tabindex="-1">
+  <header>
   <div class="container">
-    <div class="site-header">
       <h1>Jam Box Studios</h1>
       <div class="main-nav">
         <ul>
@@ -24,7 +28,7 @@
           <li><a href="#">Studio</a></li>
         </ul>
       </div>
-      <img src="https://placekitten.com/1200/900" class="banner">
+      <img src="https://placekitten.com/1200/900" class="banner" alt="kitten-image">
     </div>
     <div class="main-content">
       <h1>Welcome to Jam Box</h1>
@@ -59,9 +63,9 @@
         </form>
       </div>
     </div>
-    <div class="site-footer">
+    <footer>
       &copy; 2021 Jam Box Studios
-    </div>
+    </footer>
   </div>
 </body>
 
