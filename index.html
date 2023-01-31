@@ -14,7 +14,7 @@
 
 <body>
   <header>
-    <a href="#main" class="skip">Skip to main content</a>
+   <li><a href="#main">Skip to main content</a></li>
     </header>
     <main id="main" tabindex="-1">
   <header>
@@ -30,8 +30,8 @@
       </div>
       <img src="https://placekitten.com/1200/900" class="banner" alt="kitten-image">
     </div>
-    <div class="main-content">
       <h1>Welcome to Jam Box</h1>
+      <main id="main"></main>
       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus laboriosam praesentium nostrum ipsa eveniet, officia deserunt cumque eius esse enim, ipsam accusantium autem nihil quaerat sequi perferendis optio quia veritatis.</p>
       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam perferendis expedita sed itaque odit ipsam omnis, eos voluptates magni fugit culpa voluptatibus, inventore eaque, eligendi voluptatum! Voluptate iusto error voluptatibus.</p>
       <div class="owner">
@@ -53,10 +53,12 @@
       <div class="contact-section">
         <h1>Contact Us</h1>
         <form action="thanks.html">
-          <label>Full Name</label>
-          <input type="text" placeholder="Full Name">
-          <input type="text" placeholder="Email">
-          <input type="text" placeholder="Subject">
+          <label for="yourname">Full Name</label>
+            <input type="text" id="yourname" name="yourname" placeholder="Full Name">
+        <label for="fullname">Email</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Email">
+            <label for="fullname">Subject</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Subject">
           <b>Your Message</b>
           <textarea></textarea>
           <button type="submit">Send</button>
